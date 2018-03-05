@@ -91,7 +91,7 @@ namespace Active
 
         }
 
-        [Test]// This is a second Test to check download pdf button for crossrail
+        [Test]// This is the Test to check download pdf button for downer case study
         public void pdfDownerTest()
         {
             String parentWindow = driver.CurrentWindowHandle;
@@ -117,7 +117,7 @@ namespace Active
             Assert.True(driver.Title.Contains("Case Studies"));
         }
 
-        [Test]// this is a third test to navigate through learn more about croosrail case study page
+        [Test]// this is a third test to navigate through "learn more" button of downer case study
         public void learnMoreDownerBtn()
         {
             String parentWindow = driver.CurrentWindowHandle;
@@ -136,7 +136,7 @@ namespace Active
 
 
         }
-        [Test]// This is a second Test to check download pdf button for crossrail
+        [Test]// This is a second Test to check download pdf button for Network rail case study
         public void netRailPdfTest()
         {
             String parentWindow = driver.CurrentWindowHandle;
@@ -162,7 +162,7 @@ namespace Active
             Assert.True(driver.Title.Contains("Case Studies"));
         }
 
-        [Test]// this is a third test to navigate through learn more about croosrail case study page
+        [Test]// this is a third test to navigate through "learn more" button of Network railway case study page
         public void netRailLMBtn()
         {
             String parentWindow = driver.CurrentWindowHandle;
@@ -179,7 +179,7 @@ namespace Active
             Assert.True(driver.Title.Contains("Case Studies"));
 
         }
-        [Test]// This is a second Test to check download pdf button for crossrail
+        [Test]// This is a second Test to check download pdf button for slanska case study
         public void slanskaPdfTest()
         {
             String parentWindow = driver.CurrentWindowHandle;
@@ -205,7 +205,7 @@ namespace Active
             Assert.True(driver.Title.Contains("Case Studies"));
         }
 
-        [Test]// this is a third test to navigate through learn more about croosrail case study page
+        [Test]// this is a third test to navigate through "learn more" button of slanska case study page
         public void slanskaLMBtn()
         {
             String parentWindow = driver.CurrentWindowHandle;
